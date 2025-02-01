@@ -305,3 +305,7 @@ def team_bo_kevin_miller():
 def team_tyler_shubham_mikaella():
     return render_template('teams/tyler_shubham_mikaella.html')
 
+@app.route("/caden_helen_anthony")
+def team_caden_helen_anthony():
+    return render_template('teams/caden_helen_anthony.html')
+
