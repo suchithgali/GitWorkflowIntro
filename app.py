@@ -319,4 +319,4 @@ def team_ahmet_khang_aizen():
 
 @app.route("/kat_aaron_will_jerry")
 def team_kat_aaron_will_jerry():
-    return render_template('teams/kat_aaron_will_jerry.html')
+    return render_template('teams/team_kat_aaron_will_jerry.html')
