@@ -325,3 +325,7 @@ def kal_hec_ama():
 @app.route("/amo_will_nee")
 def team_amo_wil_nee():
     return render_template('teams/amo_will_nee.html')
+
+@app.route("/aut_wanni_sab")
+def team_aut_wanni_sab():
+    return render_template('teams/aut_wanni_sab.html')
