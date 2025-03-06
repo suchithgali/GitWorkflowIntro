@@ -34,7 +34,7 @@ def YAM():
 
 @app.route("/2025")
 def cohort_2025():
-    return render_template('teams/YAM.html')
+    return render_template('students_2025.html')
 
 @app.route("/agam_asher_jiayi")
 def team_agam_asher_jiayi():
