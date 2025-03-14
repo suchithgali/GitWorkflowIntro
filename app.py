@@ -336,6 +336,10 @@ def kal_hec_ama():
 def team_amo_wil_nee():
     return render_template('teams/amo_will_nee.html')
 
+@app.route("/ann_rian_chris")
+def team_ann_rian_chris():
+    return render_template('teams/ann_rian_chris.html')
+
 @app.route("/gian_daniel_alejandro")
 def team_gian_daniel_alejandro():
     return render_template('teams/gian_daniel_alejandro.html') 
