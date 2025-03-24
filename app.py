@@ -328,6 +328,10 @@ def team_ahmet_khang_aizen():
     return render_template('teams/ahmet-khang-aizen.html')
 
 
+@app.route("/sophia_phineas_aaron")
+def team_sophia_phineas_aaron():
+    return render_template('teams/sophia_phineas_aaron.html')
+
 @app.route("/kal_hec_ama")
 def kal_hec_ama():
     return render_template('teams/kal_hec_ama.html')
