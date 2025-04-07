@@ -327,6 +327,10 @@ def team_johnny_brent_drake():
 def team_ahmet_khang_aizen():
     return render_template('teams/ahmet-khang-aizen.html')
 
+@app.route("/aaron-kiko-azriel")
+def teamPageBLB():
+    return render_template('teams/aaron_Kiko_Azriel.html')
+
 @app.route("/kat_aaron_will_jerry")
 def team_kat_aaron_will_jerry():
     return render_template('teams/team_kat_aaron_will_jerry.html')
