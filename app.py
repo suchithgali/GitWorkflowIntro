@@ -323,6 +323,11 @@ def team_bo_kevin_miller():
 def team_tyler_shubham_mikaella():
     return render_template('teams/tyler_shubham_mikaella.html')
 
+
+@app.route("/chris_neel_marcelo")
+def team_chris_neel_marcelo():
+    return render_template("teams/chris_neel_marcelo.html")
+
 @app.route("/kev_kun_ye")
 def team_kevin_kundyz_yechan():
     return render_template('teams/kev_kun_ye.html')
@@ -386,3 +391,4 @@ def team_nam_dylan_brandon():
 @app.route("/Jane_Dane_Steven")
 def team_Jane_Dane_Steven():
     return render_template('teams/Jane_Dane_Steven.html')
+
