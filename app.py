@@ -17,7 +17,7 @@ def cohort_2022():
     return render_template('students_2022.html')
 
 
-@app.route("/neenu_suchith_autinn")
+@app.route("/team_neenu_suchith_autinn")
 def team_neenu_suchith_autinn():
     return render_template('teams/team_neenu_suchith_autinn.html')
 
